@@ -1,0 +1,155 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 2em;
+  line-height: 1.65;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+  margin: 1em 0;
+}
+h1,
+h2 {
+  font-size: 3em;
+  margin: 1em 0;
+}
+p {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+button {
+  background-color: #f04c2f;
+  color: white;
+  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 1em 0;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+}
+header {
+  background-color: black;
+}
+#logo {
+  padding: 30px 50px;
+}
+#logo img {
+  height: 5vh;
+  margin: auto;
+}
+.intro {
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 20vh;
+  text-align: center;
+}
+
+.img-benefits {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.img-benefits img {
+  margin: auto;
+  width: 100%;
+  border-radius: 100%;
+}
+.nearimgbenefits {
+  display: inline-block;
+  text-align: left;
+  font-size: 0.6em;
+  margin-left: 10vh;
+  max-width: 35vw;
+  vertical-align: middle;
+}
+.benefits {
+  text-align: center;
+  padding: 10vh;
+  margin: 10vh auto;
+}
+
+.cite {
+  text-align: center;
+  background-color: #f04c2f;
+  color: white;
+  padding: 5em;
+}
+.cite h2,
+.cite h4,
+.cite h5 {
+  color: white;
+}
+cite {
+  font-size: 2em;
+  font-style: italic;
+}
+cite::after,
+cite::before {
+  content: '"';
+}
+.cite-author {
+  margin: 2.3em;
+}
+
+.authorname {
+  font-weight: 400;
+  margin: 0;
+  font-size: 2em;
+}
+.authorpos {
+  font-weight: 200;
+  margin: 0;
+  font-size: 1.3em;
+}
+.cards {
+  text-align: center;
+  font-size: 0.6em;
+  margin: 20vh auto;
+}
+.card {
+  text-align: center;
+  margin: 5em 2em;
+  display: inline-block;
+  width: 25vw;
+  border: 1px solid #dee1e3;
+}
+.card img {
+  width: 100%;
+  height: 30vh;
+}
+.card p {
+  padding: 15px 30px;
+}
+footer,
+footer a {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+}
+footer {
+  font-size: 0.8em;
+  text-align: left;
+  padding: 20px 40%;
+  line-height: 1em;
+}
+footer h2 {
+  color: white;
+}
+footer h2,
+.credits {
+  text-align: center;
+}
+footer hr {
+  margin: 2.5em auto;
+  color: #c8e7f0;
+  border: 1px solid #c7cbcc;
+}
